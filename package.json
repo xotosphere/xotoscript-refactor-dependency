@@ -1,0 +1,21 @@
+{
+ "name": "xotoscript-refactor-dependency",
+ "version": "0.0.1",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+  "boot": "yarn install && yarn run compile",
+  "compile": "tsc",
+  "watch": "tsc -watch",
+  "start": "node ./dist/index.js"
+ },
+ "license": "ISC",
+ "devDependencies": {
+  "@types/node": "^18.15.3"
+ },
+ "dependencies": {
+  "change-case": "^4.1.2",
+  "glob": "^9.3.0",
+  "replace-in-files": "^3.0.0"
+ }
+}
